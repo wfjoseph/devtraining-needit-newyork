@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="DELETE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>false</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="ServiceNow IntegrationHub">9c883513db2b40108d117b82399619a9</category>
+        <cond_question>always</cond_question>
+        <correct_answer/>
+        <correct_answer_checkbox/>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno/>
+        <datatype>multiplecheckbox</datatype>
+        <default_value_field/>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox/>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <mandatory>false</mandatory>
+        <max>2</max>
+        <max_weight/>
+        <method>assessment</method>
+        <metric_type display_value="ServiceNow IntegrationHub">43d635dfdbe740108d117b82399619ed</metric_type>
+        <min>2</min>
+        <name>What does IntegrationHub use to run PowerShell on Windows machines inside a company network</name>
+        <order>100</order>
+        <plugin/>
+        <question>What does IntegrationHub use to run PowerShell on Windows machines inside a company network</question>
+        <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
+        <reference_table/>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <source_field/>
+        <string_option>wide</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 21:42:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2dd775d3db2b40108d117b8239961978</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>What does IntegrationHub use to run PowerShell on Windows machines inside a company network</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_metric_2dd775d3db2b40108d117b8239961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+        <template/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="DELETE" query="documentkey=2dd775d3db2b40108d117b8239961978"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2cf498a9dbf4fbc09df22f17d49619b9</instance_id>
+        <instance_name>dev80678</instance_name>
+        <name>asmt_metric_2dd775d3db2b40108d117b8239961978</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="asmt_metric"&gt;&lt;asmt_metric action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_info_label&gt;Additional Information&lt;/add_info_label&gt;&lt;allow_add_info&gt;false&lt;/allow_add_info&gt;&lt;allow_not_applicable&gt;false&lt;/allow_not_applicable&gt;&lt;auto_gen&gt;false&lt;/auto_gen&gt;&lt;category display_value="ServiceNow IntegrationHub"&gt;9c883513db2b40108d117b82399619a9&lt;/category&gt;&lt;cond_question&gt;always&lt;/cond_question&gt;&lt;correct_answer/&gt;&lt;correct_answer_checkbox/&gt;&lt;correct_answer_choice/&gt;&lt;correct_answer_template/&gt;&lt;correct_answer_yesno/&gt;&lt;datatype&gt;multiplecheckbox&lt;/datatype&gt;&lt;default_value_field/&gt;&lt;depends_on/&gt;&lt;description/&gt;&lt;details/&gt;&lt;displayed_when/&gt;&lt;displayed_when_checkbox/&gt;&lt;displayed_when_template/&gt;&lt;displayed_when_yesno/&gt;&lt;duration/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max&gt;2&lt;/max&gt;&lt;max_weight/&gt;&lt;method&gt;assessment&lt;/method&gt;&lt;metric_type display_value="ServiceNow IntegrationHub"&gt;43d635dfdbe740108d117b82399619ed&lt;/metric_type&gt;&lt;min&gt;2&lt;/min&gt;&lt;name&gt;What does IntegrationHub use to run PowerShell on Windows machines inside a company network&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;plugin/&gt;&lt;question&gt;What does IntegrationHub use to run PowerShell on Windows machines inside a company network&lt;/question&gt;&lt;randomize_answers&gt;false&lt;/randomize_answers&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;reference_table/&gt;&lt;scale&gt;low&lt;/scale&gt;&lt;scored&gt;false&lt;/scored&gt;&lt;script&gt;&lt;![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &amp;gt; 100) scaled_result = 5; // else scaled_result = 1;]]&gt;&lt;/script&gt;&lt;source_field/&gt;&lt;string_option&gt;wide&lt;/string_option&gt;&lt;sys_class_name&gt;asmt_metric&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-19 21:42:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2dd775d3db2b40108d117b8239961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;What does IntegrationHub use to run PowerShell on Windows machines inside a company network&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;asmt_metric_2dd775d3db2b40108d117b8239961978&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-19 22:04:28&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;weight&gt;10&lt;/weight&gt;&lt;/asmt_metric&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2dd775d3db2b40108d117b8239961978"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-888544189</payload_hash>
+        <record_name>What does IntegrationHub use to run PowerShell on Windows machines inside a company network</record_name>
+        <reverted_from/>
+        <source>40489a8fdb6b00108d117b8239961998</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 22:04:28</sys_created_on>
+        <sys_id>86fcf59bdb2b40108d117b8239961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f4d3865a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+        <type>Assessment Metric</type>
+        <update_guid>02fcf59b032b4010b37df434ac98ff78</update_guid>
+        <update_guid_history>02fcf59b032b4010b37df434ac98ff78:-888544189,8afcf59ba22b401053f7b8e27e02ff6b:1914147461,ac887117c52b4010916806b544d68220:281657990,10887117c82b4010149883e12a62901d:1914147461,90887117e42b4010889cb70a0c915119:-748330364,94883513dc2b4010a687b15d1f4388b0:281657990,e9d775d35c2b40100cec89291c3bed8c:1873831006,a9d775d3a32b4010ea1a214225c65781:262968963,a1d775d32d2b4010dd218858e2d60d7e:-797529064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="What does IntegrationHub use to run PowerShell on Windows machines inside a comp">4efcf59bdb2b40108d117b8239961982</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 22:04:28</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric">asmt_metric</sys_db_object>
+        <sys_id>3a82b50ff69e4444a737834a883882a9</sys_id>
+        <sys_metadata>2dd775d3db2b40108d117b8239961978</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What does IntegrationHub use to run PowerShell on Windows machines inside a company network</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>asmt_metric_2dd775d3db2b40108d117b8239961978</sys_update_name>
+        <sys_update_version display_value="asmt_metric_2dd775d3db2b40108d117b8239961978">86fcf59bdb2b40108d117b8239961978</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

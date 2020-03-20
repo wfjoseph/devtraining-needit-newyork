@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="DELETE">
+        <display>b) hub relay</display>
+        <metric display_value="What does IntegrationHub use to run PowerShell on Windows machines inside a company network">2dd775d3db2b40108d117b8239961978</metric>
+        <order>1</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 21:44:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14887117db2b40108d117b8239961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b) hub relay</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_metric_definition_14887117db2b40108d117b8239961917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 21:44:58</sys_updated_on>
+        <unselected_image/>
+        <value>1</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="DELETE" query="documentkey=14887117db2b40108d117b8239961917"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2cf498a9dbf4fbc09df22f17d49619b9</instance_id>
+        <instance_name>dev80678</instance_name>
+        <name>asmt_metric_definition_14887117db2b40108d117b8239961917</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition"><asmt_metric_definition action="INSERT_OR_UPDATE"><display>b) hub relay</display><metric display_value="What does IntegrationHub use to run PowerShell on Windows machines inside a company network">2dd775d3db2b40108d117b8239961978</metric><order>1</order><selected_image/><sys_class_name>asmt_metric_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-19 21:44:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>14887117db2b40108d117b8239961917</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b) hub relay</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>asmt_metric_definition_14887117db2b40108d117b8239961917</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-19 21:44:58</sys_updated_on><unselected_image/><value>1</value></asmt_metric_definition><sys_translated_text action="delete_multiple" query="documentkey=14887117db2b40108d117b8239961917"/></record_update>]]></payload>
+        <payload_hash>322439293</payload_hash>
+        <record_name>b) hub relay</record_name>
+        <reverted_from/>
+        <source>40489a8fdb6b00108d117b8239961998</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 21:44:58</sys_created_on>
+        <sys_id>5c887117db2b40108d117b823996191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f4c1acdb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 21:44:58</sys_updated_on>
+        <type>Assessment Metric Definition</type>
+        <update_guid>94887117ed2b401082357be25db6bb1a</update_guid>
+        <update_guid_history>94887117ed2b401082357be25db6bb1a:322439293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="b) hub relay">0afcf59bdb2b40108d117b8239961970</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 22:04:28</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_definition">asmt_metric_definition</sys_db_object>
+        <sys_id>4485174a0d86404ca142f182887ab890</sys_id>
+        <sys_metadata>14887117db2b40108d117b8239961917</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b) hub relay</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>asmt_metric_definition_14887117db2b40108d117b8239961917</sys_update_name>
+        <sys_update_version display_value="asmt_metric_definition_14887117db2b40108d117b8239961917">5c887117db2b40108d117b823996191a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

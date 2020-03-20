@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=43d635dfdbe740108d117b82399619ed^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="43d635dfdbe740108d117b82399619ed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="ServiceNow IntegrationHub">43d635dfdbe740108d117b82399619ed</metric_type>
+        <name>ServiceNow IntegrationHub</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 21:44:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c883513db2b40108d117b82399619a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ServiceNow IntegrationHub</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_metric_category_9c883513db2b40108d117b82399619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>0</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=9c883513db2b40108d117b82399619a9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2cf498a9dbf4fbc09df22f17d49619b9</instance_id>
+        <instance_name>dev80678</instance_name>
+        <name>asmt_metric_category_9c883513db2b40108d117b82399619a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=43d635dfdbe740108d117b82399619ed^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="43d635dfdbe740108d117b82399619ed"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="ServiceNow IntegrationHub">43d635dfdbe740108d117b82399619ed</metric_type><name>ServiceNow IntegrationHub</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-19 21:44:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c883513db2b40108d117b82399619a9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ServiceNow IntegrationHub</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>asmt_metric_category_9c883513db2b40108d117b82399619a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-19 22:04:28</sys_updated_on><table>asmt_metric_type</table><total_metrics>0</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=9c883513db2b40108d117b82399619a9"/></record_update>]]></payload>
+        <payload_hash>758610666</payload_hash>
+        <record_name>ServiceNow IntegrationHub</record_name>
+        <reverted_from/>
+        <source>40489a8fdb6b00108d117b8239961998</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 22:04:28</sys_created_on>
+        <sys_id>8afcf59bdb2b40108d117b8239961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f4d3873d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>06fcf59ba72b40101baba35a24e08385</update_guid>
+        <update_guid_history>06fcf59ba72b40101baba35a24e08385:758610666,d0883513f22b4010cd55f8bb1d3b90af:1625662891,94883513852b40100e1cb38b8e7b94ac:-1053903490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ServiceNow IntegrationHub">c6fcf59bdb2b40108d117b823996198f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 22:04:28</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>4f706197f92c46959ba1932b0e503749</sys_id>
+        <sys_metadata>9c883513db2b40108d117b82399619a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow IntegrationHub</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_9c883513db2b40108d117b82399619a9</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_9c883513db2b40108d117b82399619a9">8afcf59bdb2b40108d117b8239961985</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 22:04:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
